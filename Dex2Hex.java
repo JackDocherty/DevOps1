@@ -19,6 +19,5 @@ public static int Arg1;
         }
 
         System.out.println("Hexadecimal representation is: " + hexadecimal);
-
     }
 }
