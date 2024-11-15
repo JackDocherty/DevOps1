@@ -13,7 +13,6 @@ public class Dec2Hex {
             hexadecimal.insert(0, hexChars[rem]);
             num = num / 16;
         }
-
         // Return result or "0" if the input number was 0
         return hexadecimal.length() > 0 ? hexadecimal.toString() : "0";
     }
